@@ -4,7 +4,7 @@
 #
 Name     : R-robustHD
 Version  : 0.7.2
-Release  : 6
+Release  : 7
 URL      : https://cran.r-project.org/src/contrib/robustHD_0.7.2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/robustHD_0.7.2.tar.gz
 Summary  : Robust Methods for High-Dimensional Data
@@ -45,10 +45,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1637684609
+export SOURCE_DATE_EPOCH=1641102894
 
 %install
-export SOURCE_DATE_EPOCH=1637684609
+export SOURCE_DATE_EPOCH=1641102894
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
