@@ -4,7 +4,7 @@
 #
 Name     : R-robustHD
 Version  : 0.7.4
-Release  : 14
+Release  : 15
 URL      : https://cran.r-project.org/src/contrib/robustHD_0.7.4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/robustHD_0.7.4.tar.gz
 Summary  : Robust Methods for High-Dimensional Data
@@ -23,9 +23,6 @@ BuildRequires : R-lars
 BuildRequires : R-perry
 BuildRequires : R-robustbase
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 model selection techniques based on least angle regression and sparse
@@ -48,10 +45,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1674152084
+export SOURCE_DATE_EPOCH=1678835231
 
 %install
-export SOURCE_DATE_EPOCH=1674152084
+export SOURCE_DATE_EPOCH=1678835231
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
