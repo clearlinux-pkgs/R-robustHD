@@ -1,3 +1,25 @@
+Changes in robustHD version 0.8.0
+
+    + Removed deprecated functions.
+
+    + Added rstandard() method for standardized residuals rather than
+      residuals(standardize = TRUE).
+
+    + Added DOI's to references in help files.
+
+    + Minor change in behavior of diagnosticPlot() for the regression
+      diagnostic plot of sparse LTS results when the number of selected
+      variables is large compared to the number of observations. Added
+      clear documentation why this plot may fail in such a situation.
+
+    + Added metainformation on proteins, genes, and cancer cell lines to
+      the NCI-60 cancer cell panel data.
+
+    + Bugfix of inconsistent argument names of the internal generic function
+      getComponent() one of its methods.
+
+
+
 Changes in robustHD version 0.7.4
 
     + Bugfix in C++ code: deprecated argument of insert_rows() and
