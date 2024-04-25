@@ -5,7 +5,7 @@
 #
 Name     : R-robustHD
 Version  : 0.8.0
-Release  : 20
+Release  : 21
 URL      : https://cran.r-project.org/src/contrib/robustHD_0.8.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/robustHD_0.8.0.tar.gz
 Summary  : Robust Methods for High-Dimensional Data
